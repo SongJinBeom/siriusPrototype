@@ -11,7 +11,7 @@ public class Dialogue
     public int characterNum;
 }
 
-public class talk : MonoBehaviour
+public class DialogueSystem : MonoBehaviour
 {
 
     [SerializeField] private SpriteRenderer sprite_StandingCG;
