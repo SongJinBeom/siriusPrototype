@@ -15,8 +15,9 @@ public class DialogueSystem : MonoBehaviour
 {
 
     [SerializeField] private SpriteRenderer sprite_StandingCG;
-    [SerializeField] private SpriteRenderer sprite_DialogueBox;
+    [SerializeField] private Image sprite_DialogueBox;
     [SerializeField] private Text txt_Dialogue;
+    [SerializeField] private Image panel;
     [SerializeField] private Sprite merry;
     [SerializeField] private Sprite diss;
 
@@ -30,6 +31,7 @@ public class DialogueSystem : MonoBehaviour
 
     public void OnOff(bool _flag)
     {
+        panel.gameObject.SetActive(_flag);
         sprite_DialogueBox.gameObject.SetActive(_flag);
         sprite_StandingCG.gameObject.SetActive(_flag);
         txt_Dialogue.gameObject.SetActive(_flag);
@@ -62,7 +64,6 @@ public class DialogueSystem : MonoBehaviour
         }
         count++;
     }
-    
     void Update()
     {
         if (isDialogue)

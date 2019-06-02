@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.EventSystems;
 public class Control : MonoBehaviour
 {
     public float speed;
@@ -15,6 +15,7 @@ public class Control : MonoBehaviour
 
     private void Update()
     {
+        if (EventSystem.current.IsPointerOverGameObject() == true) return; // UI창 나오면 클릭 금지
         if (Input.GetMouseButtonDown(0))
         {
             targetpos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
