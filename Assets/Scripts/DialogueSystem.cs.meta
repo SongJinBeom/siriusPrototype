@@ -3,7 +3,14 @@ guid: 696f71ef91fbb514cb75cc88ccc810ee
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - sprite_StandingCG: {instanceID: 0}
+  - sprite_DialogueBox: {instanceID: 0}
+  - txt_Dialogue: {instanceID: 0}
+  - panel: {instanceID: 0}
+  - merry: {fileID: 21300000, guid: 592445c375f275f499c4eb4e7a41327e, type: 3}
+  - martha: {fileID: 21300000, guid: b405ac1f7c363fb4a9e33458d1886b87, type: 3}
+  - medlock: {fileID: 21300000, guid: c9dcffe0bf6b38345a0e3754d04e0321, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

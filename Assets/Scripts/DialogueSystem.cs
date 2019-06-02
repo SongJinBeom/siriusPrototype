@@ -19,7 +19,8 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private Text txt_Dialogue;
     [SerializeField] private Image panel;
     [SerializeField] private Sprite merry;
-    [SerializeField] private Sprite diss;
+    [SerializeField] private Sprite martha;
+    [SerializeField] private Sprite medlock;
 
 
     private bool isDialogue = false;
@@ -60,7 +61,11 @@ public class DialogueSystem : MonoBehaviour
         }
         else if(dialogue[count].characterNum == 2)
         {
-            sprite_StandingCG.sprite = diss;
+            sprite_StandingCG.sprite = martha;
+        }
+        else if (dialogue[count].characterNum == 3)
+        {
+            sprite_StandingCG.sprite = medlock;
         }
         count++;
     }
