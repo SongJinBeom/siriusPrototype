@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class DialogButtonControl : MonoBehaviour
 {
-    private DialogueSystem dialogueSystem;
+    private DialogSYS dialogueSystem;
 
     // Start is called before the first frame update
     void Start()
     {
-        dialogueSystem = FindObjectOfType<DialogueSystem>();
+        dialogueSystem = FindObjectOfType<DialogSYS>();
     }
 
     // Update is called once per frame

@@ -29,7 +29,6 @@ public class Control : MonoBehaviour
             {
                 moveit = false;
             }
-            Debug.Log(dis);
             if (dis > 0)
             {
                 transform.Translate(Vector3.right * speed * Time.deltaTime);

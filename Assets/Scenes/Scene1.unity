@@ -482,26 +482,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue UI
       objectReference: {fileID: 0}
-    - target: {fileID: 3315960498559206470, guid: 5b7b30db5c75a5749942d47ae7a31bc1,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3315960498559206470, guid: 5b7b30db5c75a5749942d47ae7a31bc1,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 12.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3315960498559206470, guid: 5b7b30db5c75a5749942d47ae7a31bc1,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 12.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 3315960498559206470, guid: 5b7b30db5c75a5749942d47ae7a31bc1,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3315960498907730248, guid: 5b7b30db5c75a5749942d47ae7a31bc1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -612,21 +592,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 450790223}
-    - target: {fileID: 3315960498559206468, guid: 5b7b30db5c75a5749942d47ae7a31bc1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3315960498559206471, guid: 5b7b30db5c75a5749942d47ae7a31bc1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -35
-      objectReference: {fileID: 0}
-    - target: {fileID: 3315960498559206471, guid: 5b7b30db5c75a5749942d47ae7a31bc1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 603
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b7b30db5c75a5749942d47ae7a31bc1, type: 3}
 --- !u!1001 &1815900767
